@@ -1,0 +1,26 @@
+nav {
+    /* 子要素を横並びにする */
+    display: flex;
+    /* displayをあてることでjustify-contentをあてられる */
+    justify-content: center;
+    /* 縦の真ん中に合わせる */
+    align-items: center;
+    height: 50px;
+    background-color: rgb(255, 158, 119);
+    gap: 45px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.15s;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: brown;
+}
+
+nav a svg {
+    margin-right: 5px;
+}
